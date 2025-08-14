@@ -16,6 +16,6 @@ steps:
     - '-d'
     - '-r'
     - 'plugins'
-    - 'gs:// us-central1-composer-airflo-72bc3253-bucket/plugins'
+    - 'gs://us-central1-composer-airflo-72bc3253-bucket/plugins'
 options:
   defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
