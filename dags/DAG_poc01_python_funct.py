@@ -75,7 +75,7 @@ with DAG(nameDAG,
          default_args = default_args,
          catchup = True,  # Ver caso catchup = True
          max_active_runs = 3,
-         schedule_interval = "25,26,27 10 14 8 *") as dag: # schedule_interval = None # Caso sin trigger automático | schedule_interval = "0 12 * * *" | "0,2 12 * * *"
+         schedule_interval = "29,30,31 16 14 8 *") as dag: # schedule_interval = None # Caso sin trigger automático | schedule_interval = "0 12 * * *" | "0,2 12 * * *"
 
     # FUENTE: CRONTRAB: https://crontab.guru/
     #############################################################
